@@ -1,0 +1,24 @@
+{
+  "name": "diamante",
+  "version": "1.0.0",
+  "description": "CodeceptJS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabz616/diamante.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabz616/diamante/issues"
+  },
+  "homepage": "https://github.com/pabz616/diamante#readme",
+  "devDependencies": {
+    "codeceptjs": "^2.3.6",
+    "webdriver": "^5.16.11"
+  }
+}
