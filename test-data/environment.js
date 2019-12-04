@@ -1,3 +1,3 @@
 module.exports = {
-    siteUrl: 'https://github.com'
+    siteUrl: 'http://www.5elementslearning.com/demosite/'
 }
