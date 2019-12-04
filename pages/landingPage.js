@@ -2,5 +2,7 @@ const { I } = inject();
 
 module.exports = {
 
-  // insert your locators and methods here
+  // insert your locators 
+  
+  //insert methods here
 }
