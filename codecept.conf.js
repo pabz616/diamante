@@ -2,13 +2,20 @@ exports.config = {
   tests: './tests/*_test.js',
   output: './output',
   helpers: {
-    Puppeteer: {
+    WebDriver: {
       url: 'http://localhost',
-      show: false
-    }
+      browser: 'chrome'
+    },
   },
   include: {},
   bootstrap: null,
   mocha: {},
-  name: 'diamante'
+  name: 'diamante',
+  plugins:{
+    wdio:{
+      enabled: 'true',
+      services: ['selenium-standalone']
+    }
+  }
+  
 }

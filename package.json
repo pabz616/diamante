@@ -2,12 +2,9 @@
   "name": "diamante",
   "version": "1.0.0",
   "description": "",
-  "main": "codecept.conf.js",
-  "directories": {
-    "test": "tests"
-  },
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "codeceptjs"
   },
   "repository": {
     "type": "git",
@@ -19,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/pabz616/diamante/issues"
   },
-  "homepage": "https://github.com/pabz616/diamante#readme"
+  "homepage": "https://github.com/pabz616/diamante#readme",
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^5.16.10",
+    "chromedriver": "^78.0.1",
+    "codeceptjs": "^2.3.6",
+    "webdriverio": "^5.16.11"
+  }
 }
