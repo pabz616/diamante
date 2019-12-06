@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'http://the-internet.herokuapp.com/login',
-    email_address: 'tomsmith',
-    password: 'SuperSecretPassword!'
+    siteUrl: 'http://www.5elementslearning.com/demosite/',
+    email_address: 'testerA@domain.com',
+    password: 'password1'
 }
