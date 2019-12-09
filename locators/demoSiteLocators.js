@@ -49,5 +49,25 @@ module.exports = {
       successDetails:{
         pageHeader: '(//h1)',
         continue_CTA: '#tdb5'
+      },
+
+      productSearch:{
+        input: '//input[@name="keywords"]',
+        submit: '//input[@title=" Quick Find "]',
+        results:{
+          productImage: '(//img)[2]',
+          productName: '(//div[contains(@class,"infoBoxContainer")]//a)[8]',
+          productPrice: '(//div[contains(@class,"infoBoxContainer")]//td)[7]',
+          productCTA: '#tdb4',
+          no_results_msg: 'There is no product that matches the search criteria.'
+        },
+      },
+
+      productList:{
+        menu:'//select[@name="manufacturers_id"]',
+        o_Fox:'//option[@value="4"]',
+        o_Canon: '//option[@value="6"]',
+        results: '//div[@class="contentContainer"]',
+        no_items_found: 'There are no products available in this category.',
       }
 }
