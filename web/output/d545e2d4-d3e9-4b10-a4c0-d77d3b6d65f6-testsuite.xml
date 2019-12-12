@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1576187814133' stop='1576187817739'>
+    <name>Delete me:</name>
+    <title>Delete me:</title>
+    <test-cases>
+        <test-case start='1576187814134' status='passed' stop='1576187817663'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1576187816065' status='passed' stop='1576187817663'>
+                    <name>I am on page "http://www.5elementslearning.com/demosite/"</name>
+                    <title>I am on page "http://www.5elementslearning.com/demosite/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

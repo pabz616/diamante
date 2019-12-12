@@ -1,0 +1,32 @@
+{
+  "name": "diamante",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabz616/diamante.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabz616/diamante/issues"
+  },
+  "homepage": "https://github.com/pabz616/diamante#readme",
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^5.16.10",
+    "chromedriver": "^78.0.1",
+    "codeceptjs": "^2.3.6",
+    "webdriverio": "^5.16.15"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.13.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
+}
