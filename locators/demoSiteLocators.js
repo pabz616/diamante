@@ -3,8 +3,8 @@ module.exports = {
       logout_CTA:'#tdb4'
     },
 
-    productList:{
-        pageHeader: '(//h1)',
+    productCatalog:{
+        pageHeader: '//h1[contains(.,"Welcome")]',
         video3:'(//td)[3]'
     },
 

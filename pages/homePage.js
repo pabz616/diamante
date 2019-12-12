@@ -4,10 +4,10 @@ const { I } = inject();
 
 module.exports = {
   selectProduct(){
-    I.waitForVisible(onDemoSite.productList.pageHeader);
+    I.waitForVisible(onDemoSite.productCatalog.pageHeader);
     I.see('Welcome to Tattvamassi')
     I.see('New Products For December')
-    I.click(onDemoSite.productList.video3);
+    I.click(onDemoSite.productCatalog.video3);
   },
 
   searchForValidProduct(){
