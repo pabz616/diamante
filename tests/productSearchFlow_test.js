@@ -8,6 +8,11 @@ Scenario('Successful product search for valid keyword', (I) => {
     onHomePage.searchForValidProduct(I);
 });
 
+Scenario('Successful product search for product ID', (I) => {
+    I.amOnPage(demo.siteUrl);
+    onHomePage.searchForValidProductByID(I);
+});
+
 Scenario('Unsuccessful product search for a generic term', (I) => {
     I.amOnPage(demo.siteUrl);
     onHomePage.searchInvalidProduct(I);

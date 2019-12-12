@@ -21,6 +21,13 @@ module.exports = {
     I.dontSee(onDemoSite.productSearch.results.no_results_msg);
   },
 
+  searchForValidProductByID(){
+    I.fillField(onDemoSite.productSearch.input, demo.product_id);
+    I.click(onDemoSite.productSearch.submit);
+    I.waitForVisible(onDemoSite.productSearch.results.productImage)
+    I.dontSee(onDemoSite.productSearch.results.no_results_msg);
+  },
+
   searchInvalidProduct(){
     I.fillField(onDemoSite.productSearch.input, demo.invalid_keyword);
     I.click(onDemoSite.productSearch.submit);

@@ -22,5 +22,8 @@
     "chromedriver": "^78.0.1",
     "codeceptjs": "^2.3.6",
     "webdriverio": "^5.16.11"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.13.0"
   }
 }
