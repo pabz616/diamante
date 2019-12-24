@@ -24,6 +24,7 @@ to get details and current version -- npx codeceptjs info
 ./tests - location of all test suites
 ./pages - where all actions for the tests occur
 ./locators - where the page objects are found for the actions on ./pages
+./performace - where the performance test is located
 ./output - where the test results, screenshots, and allure reports go
 ./test-data - split into "environment.js", which stores the website urls (allowing to switch between test environments), and "keywords.js" for search 
 ./codecept.conf.js - configuration file for all things relevant to the framework
@@ -44,4 +45,10 @@ to get details and current version -- npx codeceptjs info
 9. To run tests -- npx codeceptjs run (add "--steps" if you wish to see step-by-step what was tested)
 10. To run tests with Allure -- npx codeceptjs run --plugins allure (launch the server: allure serve output)
     to view the report -- allure serve output
+```
+
+### Peformance Testing
+```
+Requires jmeter on the device (and Blazemeter chrome extension)
+To run from the command line, cd to the directory and enter: jmeter -n -t [location of jmeter script] -l [location of result file]
 ```
