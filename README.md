@@ -50,5 +50,5 @@ to get details and current version -- npx codeceptjs info
 ### Peformance Testing
 ```
 Requires jmeter on the device (and Blazemeter chrome extension)
-To run from the command line, cd to the directory and enter: jmeter -n -t [location of jmeter script] -l [location of result file]
+To run from the command line, cd to the directory and enter: sh jmeter -n -t web/performance/5-Elements-Checkout-Flow.jmx -l web/output/5ElementsResults.csv
 ```
