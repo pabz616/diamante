@@ -4,7 +4,7 @@
 declare namespace CodeceptJS {
   interface SupportObject { I: CodeceptJS.I }
   interface CallbackOrder { [0]: CodeceptJS.I }
-  interface Methods extends CodeceptJS.WebDriver {}
+  interface Methods extends CodeceptJS.Appium {}
   interface I extends WithTranslation<Methods> {}
   namespace Translation {
     interface Actions {}
