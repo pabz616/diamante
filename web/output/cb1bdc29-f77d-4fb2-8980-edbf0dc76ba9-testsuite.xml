@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577747386437' stop='1577747387262'>
+    <name>MVP:</name>
+    <title>MVP:</title>
+    <test-cases>
+        <test-case start='1577747386437' status='failed' stop='1577747386901'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='934fda15-a073-45f8-bb2b-311c9bf964e0-attachment.png' type='image/png' size='7396'/>
+            </attachments>
+            <failure>
+                <message>I.haveRequestHeaders is not a function</message>
+                <stack-trace>TypeError: I.haveRequestHeaders is not a function
+                    at Test.&lt;anonymous> (/Users/home/Desktop/automation/diamante/web/tests/sample_api_test.js:10:7)
+                    at Context.test.fn (/Users/home/Desktop/automation/diamante/web/node_modules/codeceptjs/lib/scenario.js:78:14)
+                    at callFnAsync (/Users/home/Desktop/automation/diamante/web/node_modules/mocha/lib/runnable.js:415:21)
+                    at Test.Runnable.run (/Users/home/Desktop/automation/diamante/web/node_modules/mocha/lib/runnable.js:357:7)
+                    at Runner.runTest (/Users/home/Desktop/automation/diamante/web/node_modules/mocha/lib/runner.js:535:10)
+                    at /Users/home/Desktop/automation/diamante/web/node_modules/mocha/lib/runner.js:653:12
+                    at next (/Users/home/Desktop/automation/diamante/web/node_modules/mocha/lib/runner.js:447:14)
+                    at /Users/home/Desktop/automation/diamante/web/node_modules/mocha/lib/runner.js:457:7
+                    at next (/Users/home/Desktop/automation/diamante/web/node_modules/mocha/lib/runner.js:362:14)
+                    at /Users/home/Desktop/automation/diamante/web/node_modules/mocha/lib/runner.js:420:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

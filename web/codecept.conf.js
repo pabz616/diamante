@@ -2,6 +2,13 @@ exports.config = {
   tests: './tests/*_test.js',
   output: './output',
   helpers: {
+    REST: {
+      endpoint: 'http://jsonplaceholder.typicode.com',
+      defaultHeaders: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+      },
+    },
     WebDriver: {
       url: 'http://localhost',
       smartWait: 5000,
@@ -12,7 +19,6 @@ exports.config = {
       browser: 'chrome',
       restart: 'false',
       desiredCapabilities:{
-        unexpectedAlertBehaviour: 'dismiss',
         chromeOptions:{
           args:[ "--headless", "--disable-gpu", "--window-size=1200,1000", "--no-sandbox" ]
         }

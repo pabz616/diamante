@@ -1,0 +1,426 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577747359546' stop='1577747374458'>
+    <name>5 Elements Demo Site:</name>
+    <title>5 Elements Demo Site:</title>
+    <test-cases>
+        <test-case start='1577747361100' status='passed' stop='1577747374391'>
+            <name>Test Checkout Flow</name>
+            <title>Test Checkout Flow</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1577747362786' status='passed' stop='1577747363895'>
+                    <name>I am on page "http://www.5elementslearning.com/demosite/"</name>
+                    <title>I am on page "http://www.5elementslearning.com/demosite/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1577747363896' status='passed' stop='1577747365091'>
+                    <name>Object: selectProduct </name>
+                    <title>Object: selectProduct </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747363896' status='passed' stop='1577747363941'>
+                            <name>I wait for visible "//h1[contains(.,"Welcome")]"</name>
+                            <title>I wait for visible "//h1[contains(.,"Welcome")]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747363941' status='passed' stop='1577747364039'>
+                            <name>I see "Welcome to Tattvamassi"</name>
+                            <title>I see "Welcome to Tattvamassi"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747364039' status='passed' stop='1577747364119'>
+                            <name>I see "New Products For December"</name>
+                            <title>I see "New Products For December"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747364119' status='passed' stop='1577747365090'>
+                            <name>I click "(//td)[3]"</name>
+                            <title>I click "(//td)[3]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747365091' status='passed' stop='1577747366266'>
+                    <name>Object: addToCart </name>
+                    <title>Object: addToCart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747365091' status='passed' stop='1577747365132'>
+                            <name>I wait for visible "(//h1)[2]"</name>
+                            <title>I wait for visible "(//h1)[2]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747365132' status='passed' stop='1577747365223'>
+                            <name>I see "Speed"</name>
+                            <title>I see "Speed"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747365223' status='passed' stop='1577747365309'>
+                            <name>I see "$39.99"</name>
+                            <title>I see "$39.99"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747365309' status='passed' stop='1577747366266'>
+                            <name>I click "#tdb4"</name>
+                            <title>I click "#tdb4"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747366266' status='passed' stop='1577747366966'>
+                    <name>Object: proceedToCheckout </name>
+                    <title>Object: proceedToCheckout </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747366266' status='passed' stop='1577747366296'>
+                            <name>I wait for visible "(//h1)"</name>
+                            <title>I wait for visible "(//h1)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747366296' status='passed' stop='1577747366966'>
+                            <name>I click "#tdb5"</name>
+                            <title>I click "#tdb5"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747366966' status='passed' stop='1577747368297'>
+                    <name>Object: submitLogin </name>
+                    <title>Object: submitLogin </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747366966' status='passed' stop='1577747367003'>
+                            <name>I wait for visible "(//h2)[2]"</name>
+                            <title>I wait for visible "(//h2)[2]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747367003' status='passed' stop='1577747367187'>
+                            <name>I fill field "//input[@name="email_address"]", "testerA@domain.com"</name>
+                            <title>I fill field "//input[@name="email_address"]", "testerA@domain.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747367187' status='passed' stop='1577747367292'>
+                            <name>I fill field "//input[@name="password"]", "password1"</name>
+                            <title>I fill field "//input[@name="password"]", "password1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747367292' status='passed' stop='1577747368296'>
+                            <name>I click "#tdb5"</name>
+                            <title>I click "#tdb5"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747368297' status='passed' stop='1577747369704'>
+                    <name>Object: confirmShippingInformation </name>
+                    <title>Object: confirmShippingInformation </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747368297' status='passed' stop='1577747368323'>
+                            <name>I wait for visible "(//h1)"</name>
+                            <title>I wait for visible "(//h1)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747368323' status='passed' stop='1577747368411'>
+                            <name>I see "Delivery Information"</name>
+                            <title>I see "Delivery Information"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747368411' status='passed' stop='1577747368488'>
+                            <name>I see "N/A"</name>
+                            <title>I see "N/A"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747368488' status='passed' stop='1577747368568'>
+                            <name>I see "testerA testerA"</name>
+                            <title>I see "testerA testerA"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747368568' status='passed' stop='1577747368648'>
+                            <name>I see "123 Main St"</name>
+                            <title>I see "123 Main St"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747368648' status='passed' stop='1577747368720'>
+                            <name>I see "Brooklyn, NY 11201"</name>
+                            <title>I see "Brooklyn, NY 11201"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747368720' status='passed' stop='1577747368795'>
+                            <name>I see "United States"</name>
+                            <title>I see "United States"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747368795' status='passed' stop='1577747368872'>
+                            <name>I see "Flat Rate"</name>
+                            <title>I see "Flat Rate"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747368872' status='passed' stop='1577747368961'>
+                            <name>I see "Best Way $5.00"</name>
+                            <title>I see "Best Way $5.00"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747368961' status='passed' stop='1577747369704'>
+                            <name>I click "#tdb6"</name>
+                            <title>I click "#tdb6"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747369704' status='passed' stop='1577747370189'>
+                    <name>Object: confirmBillingInformation </name>
+                    <title>Object: confirmBillingInformation </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747369704' status='passed' stop='1577747369730'>
+                            <name>I wait for visible "(//h1)"</name>
+                            <title>I wait for visible "(//h1)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747369730' status='passed' stop='1577747369810'>
+                            <name>I see "Delivery Information"</name>
+                            <title>I see "Delivery Information"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747369810' status='passed' stop='1577747369885'>
+                            <name>I see "N/A"</name>
+                            <title>I see "N/A"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747369885' status='passed' stop='1577747369969'>
+                            <name>I see "testerA testerA"</name>
+                            <title>I see "testerA testerA"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747369969' status='passed' stop='1577747370042'>
+                            <name>I see "123 Main St"</name>
+                            <title>I see "123 Main St"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747370042' status='passed' stop='1577747370112'>
+                            <name>I see "Brooklyn, NY 11201"</name>
+                            <title>I see "Brooklyn, NY 11201"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747370112' status='passed' stop='1577747370189'>
+                            <name>I see "United States"</name>
+                            <title>I see "United States"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747370189' status='passed' stop='1577747370868'>
+                    <name>Object: selectPaymentMethod </name>
+                    <title>Object: selectPaymentMethod </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747370189' status='passed' stop='1577747370250'>
+                            <name>I click "//input[@value="cod"]"</name>
+                            <title>I click "//input[@value="cod"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747370250' status='passed' stop='1577747370868'>
+                            <name>I click "#tdb6"</name>
+                            <title>I click "#tdb6"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747370868' status='passed' stop='1577747371515'>
+                    <name>Object: verifyDeliveryDetails </name>
+                    <title>Object: verifyDeliveryDetails </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747370868' status='passed' stop='1577747370893'>
+                            <name>I wait for visible "(//h1)"</name>
+                            <title>I wait for visible "(//h1)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747370893' status='passed' stop='1577747370987'>
+                            <name>I see "Order Confirmation"</name>
+                            <title>I see "Order Confirmation"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747370987' status='passed' stop='1577747371076'>
+                            <name>I see "Delivery Information"</name>
+                            <title>I see "Delivery Information"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747371076' status='passed' stop='1577747371165'>
+                            <name>I see "N/A"</name>
+                            <title>I see "N/A"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747371165' status='passed' stop='1577747371250'>
+                            <name>I see "testerA testerA"</name>
+                            <title>I see "testerA testerA"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747371250' status='passed' stop='1577747371341'>
+                            <name>I see "123 Main St"</name>
+                            <title>I see "123 Main St"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747371341' status='passed' stop='1577747371427'>
+                            <name>I see "Brooklyn, NY 11201"</name>
+                            <title>I see "Brooklyn, NY 11201"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747371427' status='passed' stop='1577747371515'>
+                            <name>I see "United States"</name>
+                            <title>I see "United States"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747371515' status='passed' stop='1577747371684'>
+                    <name>Object: verifyProductOrdered </name>
+                    <title>Object: verifyProductOrdered </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747371515' status='passed' stop='1577747371599'>
+                            <name>I see "1 x Speed"</name>
+                            <title>I see "1 x Speed"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747371599' status='passed' stop='1577747371684'>
+                            <name>I see "$39.99"</name>
+                            <title>I see "$39.99"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747371685' status='passed' stop='1577747371775'>
+                    <name>Object: verifyShippingDetails </name>
+                    <title>Object: verifyShippingDetails </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747371685' status='passed' stop='1577747371775'>
+                            <name>I see "Flat Rate (Best Way)"</name>
+                            <title>I see "Flat Rate (Best Way)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747371775' status='passed' stop='1577747371871'>
+                    <name>Object: verifyPaymentMethod </name>
+                    <title>Object: verifyPaymentMethod </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747371775' status='passed' stop='1577747371871'>
+                            <name>I see "Cash on Delivery"</name>
+                            <title>I see "Cash on Delivery"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747371871' status='passed' stop='1577747372957'>
+                    <name>Object: submitOrder </name>
+                    <title>Object: submitOrder </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747371871' status='passed' stop='1577747372957'>
+                            <name>I click "#tdb5"</name>
+                            <title>I click "#tdb5"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747372957' status='passed' stop='1577747373879'>
+                    <name>Object: completeOrder </name>
+                    <title>Object: completeOrder </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747372957' status='passed' stop='1577747372981'>
+                            <name>I wait for visible "(//h1)"</name>
+                            <title>I wait for visible "(//h1)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747372981' status='passed' stop='1577747373052'>
+                            <name>I see "Your Order Has Been Processed!"</name>
+                            <title>I see "Your Order Has Been Processed!"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747373052' status='passed' stop='1577747373114'>
+                            <name>I see "Thanks for shopping with us online!"</name>
+                            <title>I see "Thanks for shopping with us online!"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1577747373114' status='passed' stop='1577747373879'>
+                            <name>I click "#tdb5"</name>
+                            <title>I click "#tdb5"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1577747373879' status='passed' stop='1577747374391'>
+                    <name>Object: logOut </name>
+                    <title>Object: logOut </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1577747373879' status='passed' stop='1577747374391'>
+                            <name>I click "#tdb4"</name>
+                            <title>I click "#tdb4"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
