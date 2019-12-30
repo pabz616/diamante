@@ -4,25 +4,25 @@ CodeceptJS Framework
 
 ## Scope
 
-'```
+```
 The following is a javascript-based test framework built on selenium, employing page-object model method and is data-driven. While the codeceptjs website suggests using Puppeteer, this one is using WebDriver
 
-```'
+```
 
 ### Resources
 
-'```
+```
 website: https://codecept.io/
 page-objects: https://codecept.io/pageobjects
 commands: https://codecept.io/commands
 reporting plug-in: allure
 to get details and current version -- npx codeceptjs info
 
-```'
+```
 
 ### Structure
 
-'```
+```
 ./tests - location of all test suites
 ./pages - where all actions for the tests occur
 ./locators - where the page objects are found for the actions on ./pages
@@ -32,11 +32,11 @@ to get details and current version -- npx codeceptjs info
 ./codecept.conf.js - configuration file for all things relevant to the framework
 ./package.json (package-lock.json) - not something to interact with (DO NOT TOUCH!)
 
-```'
+```
 
 ### Getting Set up
 
-'```
+```
 
 1. Verify you have the latet version of node & npm - node --version; npm --version (install / update to latest)
 2. Create a directory on your desktop -- give it a good name
@@ -50,19 +50,19 @@ to get details and current version -- npx codeceptjs info
 10. To run tests with Allure -- npx codeceptjs run --plugins allure (launch the server: allure serve output)
     to view the report -- allure serve output
 
-```'
+```
 
 ### API TESING
 
-'```
+```
 Requires Axios - npm install axios
 visit - https://codecept.io/helpers/REST/#rest
 
-```'
+```
 
 ### Peformance Testing
 
-'```
+```
 Requires jmeter on the device (and Blazemeter chrome extension)
 To run from the command line, cd to the directory and enter: sh jmeter -n -t [path to jmx file] -l [results file] -e -o [Path to web report folder]
-```'
+```
