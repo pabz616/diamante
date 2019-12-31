@@ -11,8 +11,11 @@ const onSuccessPage = require('../pages/successPage')
 
 Feature('5 Elements Demo Site');
 
-Scenario('Test Checkout Flow', (I) => {
+Before( (I) => {
   I.amOnPage(demo.siteUrl);
+});
+
+Scenario('Test Checkout Flow', (I) => {
   onHomePage.selectProduct(I);
   onProductDetailsPage.addToCart(I);
   onCartPage.proceedToCheckout(I);

@@ -69,5 +69,9 @@ module.exports = {
         o_Canon: '//option[@value="6"]',
         results: '//div[@class="contentContainer"]',
         no_items_found: 'There are no products available in this category.',
+      },
+
+      applitools_landingPage:{
+        cta: '//button[contains(., "Click")]'
       }
 }

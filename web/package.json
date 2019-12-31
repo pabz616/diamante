@@ -18,15 +18,18 @@
   },
   "homepage": "https://github.com/pabz616/diamante#readme",
   "devDependencies": {
+    "@applitools/eyes-selenium": "^4.33.3",
+    "@applitools/eyes-webdriverio": "^5.9.2",
     "@wdio/selenium-standalone-service": "^5.16.10",
     "chai": "^4.2.0",
     "chromedriver": "^78.0.1",
     "codeceptjs": "^2.3.6",
-    "webdriverio": "^5.16.15"
+    "webdriverio": "^5.18.2"
   },
   "dependencies": {
     "allure-commandline": "^2.13.0",
-    "axios": "^0.19.0"
+    "axios": "^0.19.0",
+    "codeceptjs-applitoolshelper": "^1.1.5"
   },
   "directories": {
     "test": "tests"
