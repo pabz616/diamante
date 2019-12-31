@@ -37,5 +37,9 @@ exports.config = {
     allure:{
       enabled: 'true'
     },
+    ApplitoolsHelper: {
+      require: 'codeceptjs-applitoolshelper',
+      applitoolsKey: '#'
+    }
   }  
 }
