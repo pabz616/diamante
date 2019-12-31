@@ -52,7 +52,7 @@ to get details and current version -- npx codeceptjs info
 
 ```
 
-### API TESING
+### API Testing
 
 ```
 Requires Axios - npm install axios
