@@ -1,5 +1,6 @@
 {
   "name": "diamante",
+  "description": "Automation test framework for web and mobile w. reporting",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/pabz616/diamante#readme",
   "devDependencies": {
     "@wdio/selenium-standalone-service": "^5.16.10",
+    "chai": "^4.2.0",
     "chromedriver": "^78.0.1",
     "codeceptjs": "^2.3.6",
     "webdriverio": "^5.16.15"
@@ -28,6 +30,5 @@
   },
   "directories": {
     "test": "tests"
-  },
-  "description": ""
+  }
 }
