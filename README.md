@@ -56,7 +56,9 @@ to get details and current version -- npx codeceptjs info
 
 ```
 Requires Axios - npm install axios
+Requires Chai (for assertions) - npm install chai --save-dev
 visit - https://codecept.io/helpers/REST/#rest
+for chai assertions, visit: https://www.chaijs.com/api/assert/
 
 ```
 
