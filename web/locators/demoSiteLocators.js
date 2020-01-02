@@ -12,6 +12,7 @@ module.exports = {
         productTitle: '(//h1)[2]',
         productPrice:'(//h1)[1]',
         productImage:'(//img)[3]',
+        productImage_bestseller: '(//img)[2]',
         addToCart_CTA: '#tdb4'
     },
     
@@ -69,6 +70,14 @@ module.exports = {
         o_Canon: '//option[@value="6"]',
         results: '//div[@class="contentContainer"]',
         no_items_found: 'There are no products available in this category.',
+      },
+
+      bestSellersList:{
+        link1: '(//a[contains(.,"Unreal Tournament")])[2]',
+        link2: '(//a[contains(.,"Matrox")])[3]',
+        link3: '(//a[contains(.,"Speed")])[3]',
+        link4: '//a[contains(.,"IntelliMouse Pro")]',
+        link5: '//a[contains(.,"Samsung Galaxy Tab")]'
       },
 
       applitools_landingPage:{
