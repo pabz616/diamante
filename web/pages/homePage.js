@@ -10,14 +10,19 @@ module.exports = {
     I.click(onDemoSite.productCatalog.video3);
   },
 
+  selectFromBestSellersList(){
+    I.see("Bestsellers");
+    I.click(onDemoSite.bestSellersList.link1);
+  },
+
   searchForValidProduct(){
     I.fillField(onDemoSite.productSearch.input, demo.valid_keyword);
     I.click(onDemoSite.productSearch.submit);
     I.waitForVisible(onDemoSite.productSearch.results.productImage)
-    // I.see(onDemoSite.productSearch.results.productImage);
-    // I.see(onDemoSite.productSearch.results.productName);
-    // I.see(onDemoSite.productSearch.results.productPrice);
-    // I.see(onDemoSite.productSearch.results.productCTA);
+    I.seeElementInDOM(onDemoSite.productSearch.results.productImage);
+    I.seeElementInDOM(onDemoSite.productSearch.results.productName);
+    I.seeElementInDOM(onDemoSite.productSearch.results.productPrice);
+    I.seeElementInDOM(onDemoSite.productSearch.results.productCTA);
     I.dontSee(onDemoSite.productSearch.results.no_results_msg);
   },
 
@@ -45,6 +50,10 @@ module.exports = {
     I.click(onDemoSite.productList.menu);
     I.click(onDemoSite.productList.o_Canon);
     I.see(onDemoSite.productList.no_items_found);
+  },
+
+  navigateToProductReviewsPage(){
+    I.click(onDemoSite.productReview.link);
   },
 
   logOut(){
