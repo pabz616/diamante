@@ -20,7 +20,7 @@ exports.config = {
       restart: 'false',
       desiredCapabilities:{
         chromeOptions:{
-          args:[ "--headless", "--disable-gpu", "--window-size=1200,1000", "--no-sandbox" ]
+          args:["--headless","--disable-gpu", "--window-size=1200,1000", "--no-sandbox" ]
         }
       }
     },

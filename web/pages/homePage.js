@@ -52,6 +52,10 @@ module.exports = {
     I.see(onDemoSite.productList.no_items_found);
   },
 
+  navigateToProductReviewsPage(){
+    I.click(onDemoSite.productReview.link);
+  },
+
   logOut(){
     I.click(onDemoSite.navigation.logout_CTA);
   }

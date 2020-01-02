@@ -80,6 +80,18 @@ module.exports = {
         link5: '//a[contains(.,"Samsung Galaxy Tab")]'
       },
 
+      productReview:{
+        link: '//a[contains(.,"Reviews")]',
+        details:{
+          pageHeader: '(//h1)',
+          movieTitle: '(//h2)',
+          movieImage: '(//img[contains(@title,"Something About Mary")])[1]',
+          movieAuthor: '//span[@class="smallText"]',
+          comment: '//td[contains(.,"funniest movies")]',
+          rating: '//td//i'
+        }
+      },
+
       applitools_landingPage:{
         cta: '//button[contains(., "Click")]'
       }
